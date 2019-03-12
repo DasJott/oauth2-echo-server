@@ -2,7 +2,7 @@
 
 > Using Echo framework implementation OAuth 2.0 services
 
-[![License][License-Image]][License-Url] [![ReportCard][ReportCard-Image]][ReportCard-Url] [![GoDoc][GoDoc-Image]][GoDoc-Url]
+[![License][License-Image]][License-Url] [![ReportCard][ReportCard-Image]][ReportCard-Url]
 
 ## Quick Start
 
