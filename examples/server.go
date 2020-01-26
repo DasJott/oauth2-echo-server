@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	echoserver "github.com/DasJott/oauth2-echo-server"
+	echoserver "github.com/dasjott/oauth2-echo-server"
 	"github.com/labstack/echo"
 	"gopkg.in/oauth2.v3/manage"
 	"gopkg.in/oauth2.v3/models"

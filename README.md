@@ -9,7 +9,7 @@
 ### Download and install
 
 ``` bash
-$ go get -u github.com/dasjott/echo-server
+$ go get github.com/dasjott/oauth2-echo-server
 ```
 
 ### Create file `server.go`
