@@ -9,7 +9,7 @@
 ### Download and install
 
 ``` bash
-$ go get -u github.com/DasJott/echo-server
+$ go get -u github.com/dasjott/echo-server
 ```
 
 ### Create file `server.go`
