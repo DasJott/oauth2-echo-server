@@ -4,11 +4,11 @@ import (
 	"net/http"
 
 	echoserver "github.com/dasjott/oauth2-echo-server"
-	"github.com/labstack/echo"
-	"gopkg.in/oauth2.v3/manage"
-	"gopkg.in/oauth2.v3/models"
-	"gopkg.in/oauth2.v3/server"
-	"gopkg.in/oauth2.v3/store"
+	"github.com/go-oauth2/oauth2/v4/manage"
+	"github.com/go-oauth2/oauth2/v4/models"
+	"github.com/go-oauth2/oauth2/v4/server"
+	"github.com/go-oauth2/oauth2/v4/store"
+	"github.com/labstack/echo/v4"
 )
 
 func main() {

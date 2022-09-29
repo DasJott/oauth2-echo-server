@@ -3,9 +3,9 @@ package echoserver
 import (
 	"sync"
 
-	"github.com/labstack/echo"
-	"gopkg.in/oauth2.v3"
-	"gopkg.in/oauth2.v3/server"
+	"github.com/go-oauth2/oauth2/v4/manage"
+	"github.com/go-oauth2/oauth2/v4/server"
+	"github.com/labstack/echo/v4"
 )
 
 var (
@@ -14,7 +14,7 @@ var (
 )
 
 // InitServer Initialize the service
-func InitServer(manager oauth2.Manager) *server.Server {
+func InitServer(manager *manage.Manager) *server.Server {
 	once.Do(func() {
 		eServer = server.NewDefaultServer(manager)
 	})
